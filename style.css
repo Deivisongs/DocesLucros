@@ -1,0 +1,675 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, Georgia, 'Times New Roman', Times, serif;
+}
+body{
+   background: #e5e2dd; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    width: fit-content;
+    display: flex;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: #d19590;
+    color: #e5e2dd;
+    font-size: 14px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.068);
+}
+.btn:hover{
+    opacity: 0.8;
+}
+
+/* Nav */
+nav .divCentralNav{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .divCentralNav .logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+nav .divCentralNav .logo img{
+    width: 40px;
+}
+nav .divCentralNav .logo p{
+    width: 62px;
+    font-weight: 700;
+    color: #d19590;
+    line-height: 15px;
+    font-size: 18px;
+}
+
+/* section Principal */
+
+.sectionPadrao{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .divTextos h1{
+    color: #d19590;
+    font-size: 42px;
+}
+.banner .divTextos h1 strong{
+    font-weight: 700;
+    color: #634639;
+    text-decoration: underline;
+}
+.banner .divTextos p{
+    width: 500px;
+    color: #634639;
+}
+.banner .divTextos a{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+.banner img{
+    width: 370px;
+    margin: 40px 0;
+}
+
+/* section ganhe dinheiro */
+
+.ganheDinheiro{
+    background: #d19590;
+}
+.ganheDinheiro .sectionPadrao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ganheDinheiro .divTextos h2{
+    color: #e5e2dd;
+    font-size: 45px;
+}
+.ganheDinheiro .divTextos p{
+    font-size: 14px;
+    width: 530px;
+    color: #e5e2dd;
+    margin: 10px 0 20px 0;
+}
+.ganheDinheiro .divTextos a{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #e5e2dd;
+    color: #bf7c76;
+    font-weight: 500;
+}
+.ganheDinheiro .divTextos .info{
+    font-size: 11px;
+}
+.ganheDinheiro .divImagens{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+.ganheDinheiro .divImagens img{
+    width: 180px;
+    border-radius: 15px;
+}
+
+/* section Beneficios */
+.beneficios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.beneficios .divTitulo h2{
+    color: #d19590;
+    text-align: center;
+    width: 700px;
+    font-size: 45px;
+}
+.beneficios .divTitulo strong{
+    color: #634639;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.beneficios .divTitulo .doceslucros{
+    color: #634639;
+    font-weight: 700;
+    text-decoration: none;
+}
+.beneficios .divTitulo p{
+    color: #634639;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+.beneficios .divTopicos span{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin: 25px;
+}
+.beneficios .divTopicos span h3{
+    color: #634639;
+}
+.beneficios .divTopicos span p{
+    color: #634639;
+}
+.beneficios .divTopicos span img{
+    width: 40px;
+    height: 40px;
+}
+
+/* todos os gostos */
+.todosGostos{
+    background: #d19590;
+}
+.todosGostos .sectionPadrao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 10px 30px 10px;
+    background: #d19590;
+}
+.todosGostos .sectionPadrao h2{
+    width: 640px;
+    text-align: center;
+    color: #e5e2dd;
+    font-size: 42px;
+    line-height: 50px;
+}
+.todosGostos .sectionPadrao h2 strong{
+    color: #634639;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.todosGostos .sectionPadrao p{
+    width: 600px;
+    color: #e5e2dd;
+    margin: 30px 0;
+    font-size: 16px;
+    text-align: center;
+}
+.todosGostos .sectionPadrao span{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+.todosGostos .sectionPadrao span img{
+    width: 150px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.096);
+    border-radius: 10px;
+}
+
+/* Section Verificado */
+.sectionVerificado{
+    background: #d19590;
+}
+.sectionVerificado .sectionPadrao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 50px 0;
+    flex-wrap: wrap;
+}
+.sectionVerificado .sectionPadrao span{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sectionVerificado .sectionPadrao span > img{
+    width: 400px; 
+}
+.sectionVerificado .sectionPadrao span div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 350px;
+}
+.sectionVerificado .sectionPadrao span div img{
+    width: 30px; 
+}
+.sectionVerificado .sectionPadrao span div h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sectionVerificado .sectionPadrao span div p{
+    font-size: 13px;
+    text-align: center;
+}
+
+/* Section Pagamento*/
+.sectionPagamento{
+    background-color: #d19590;
+}
+.sectionPagamento .sectionPadrao{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.sectionPagamento .sectionPadrao .divContainer{
+    display: flex;
+    border: 2px solid #e5e2dd;
+    border-radius: 20px;
+}
+.sectionPagamento .sectionPadrao > span{
+    display: flex;
+    background: #e5e2dd;
+    padding: 0 30px;
+    border-radius: 10px;
+}
+.sectionPagamento .sectionPadrao > span img{
+    width: 500px;
+}
+.sectionPagamento .sectionPadrao .divContainer > div{
+    width: 50%;
+}
+.sectionPagamento .sectionPadrao .divContainer .divBeneficios{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 50px;
+}
+.sectionPagamento .sectionPadrao .divContainer .divBeneficios span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sectionPagamento .sectionPadrao .divContainer .divBeneficios span img{
+    width: 20px;
+    height: 20px;
+}
+.sectionPagamento .sectionPadrao .divContainer .divBeneficios span p{
+    max-width: 300px;
+    font-size: 13px;
+    color: white;
+}
+.sectionPagamento .sectionPadrao .divContainer .divPagamento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #e5e2dd;
+    padding: 0 50px;
+    border-radius: 0 15px 15px 0;
+    color: #bf7c76;
+}
+.sectionPagamento .sectionPadrao .divContainer .divPagamento h2{
+    font-size: 60px;
+}
+.sectionPagamento .sectionPadrao .divContainer .divPagamento h3{
+    position: relative;
+    top: -10px;
+    font-weight: 600;
+}
+.sectionPagamento .sectionPadrao .divContainer .divPagamento p{
+    max-width: 200px;
+    font-size: 13px;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+.sectionPagamento .sectionPadrao .divContainer .divPagamento a{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #bf7c76;
+}
+
+/* Section Garantia */
+.sectionGarantia{
+    padding: 80px 0;
+}
+.sectionGarantia .sectionPadrao{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+.sectionGarantia .sectionPadrao div h2{
+    font-size: 45px;
+    color: #bf7c76;
+    line-height: 50px;
+    width: 600px;
+}
+.sectionGarantia .sectionPadrao div h2 strong{
+    font-weight: 700;
+    color: #634639;
+}
+.sectionGarantia .sectionPadrao div p{
+    color: #bf7c76;
+    border: 1px solid transparent;
+}
+.sectionGarantia .sectionPadrao div .subtitulo{
+    max-width: 650px;
+}
+.sectionGarantia .sectionPadrao img{
+    width: 200px;
+    height: 200px;
+}
+
+/* Avaliações */
+.avaliacoes{
+    background: #d19590;
+}
+.avaliacoes .sectionPadrao{
+    padding: 70px 10px 10px 10px;
+    color: #e5e2dd;
+}
+.avaliacoes .sectionPadrao h2{
+    width: 630px;
+    font-size: 42px;
+    line-height: 50px;
+}
+.avaliacoes .sectionPadrao > h2 strong{
+    font-weight: 700;
+    color: #634639;
+}
+.avaliacoes .sectionPadrao > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.avaliacoes .sectionPadrao > div span{
+    width: 24%;
+    min-width: 230px;
+    display: inline-block;
+    background: #e5e2dd50;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.103);
+}
+.avaliacoes .sectionPadrao > div span header{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #634639;
+}
+.avaliacoes .sectionPadrao > div span header img{
+    position: relative;
+    top: -3px;
+    width: 30px;
+    height: 30px;
+}
+.avaliacoes .sectionPadrao > div span header div h3{
+    font-size: 15px;
+}
+.avaliacoes .sectionPadrao > div span header div p{
+    position: relative;
+    top: -5px;
+    font-size: 12px;
+}
+.avaliacoes .sectionPadrao > div span > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    text-align: center;
+    height: 100px;
+    margin-top: 5px;
+    padding: 5px;
+    background: #e5e2dd;
+    color: #634639;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 10px;
+}
+.avaliacoes .sectionPadrao > .itensBotton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.avaliacoes .sectionPadrao > .itensBotton .btn{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #634639;
+    color: #e5e2dd;
+}
+
+
+footer{
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 20px 0;
+}
+@media (max-width: 1000px){
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner img{
+        width: 240px;
+    }
+    .banner .divTextos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .divTextos h1{
+        text-align: center;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .banner .divTextos p{
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+    .banner .divTextos a{
+        margin: 20px 0;
+    }
+
+    /* section ganhe dinheiro*/
+
+    .ganheDinheiro .sectionPadrao{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .ganheDinheiro .divImagens{
+        width: 100%;
+    }
+    .ganheDinheiro .divImagens img{
+        width: 150px;
+    }
+    .ganheDinheiro .divTextos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ganheDinheiro .divTextos h2{
+        font-size: 28px;
+        text-align: center;
+    }
+    .ganheDinheiro .divTextos p{
+        width: auto;
+        font-size: 14px;
+        text-align: center;
+    }
+    .ganheDinheiro .divTextos .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+    }
+
+    /* beneficios */
+    .beneficios .divTitulo h2{
+        width: 100%;
+        font-size: 30px;
+    }
+    .beneficios .divTopicos span{
+        gap: 10px;
+    }
+    .beneficios .divTopicos span h3{
+        font-size: 15px;
+    }
+    .beneficios .divTopicos span p{
+        font-size: 12px;
+    }
+    .beneficios .divTopicos span img{
+        width: 30px;
+        height: 30px;
+    }
+
+    /* categorias */
+    .todosGostos .sectionPadrao h2{
+        font-size: 30px;
+        width: 100%;
+        line-height: 37px;
+    }
+    .todosGostos .sectionPadrao h2 br{
+        display: none;
+    }
+    .todosGostos .sectionPadrao p{
+        width: 100%;
+    }
+    .todosGostos .sectionPadrao span{
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    /* section verificado */
+
+    .sectionVerificado .sectionPadrao span > img{
+        width: 250px; 
+        padding: 50px 0;
+    }
+    .sectionVerificado .sectionPadrao span div{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .sectionVerificado .sectionPadrao{
+        justify-content: center;
+    }
+
+    /* Section Pagamento */
+    .sectionPagamento .sectionPadrao{
+        padding: 0 0 50px 0;
+    }
+    .sectionPagamento .sectionPadrao > span{
+        width: 90%;
+        padding: 5px 10px;
+    }
+    .sectionPagamento .sectionPadrao > span img{
+        width: 100%;
+    }
+    .sectionPagamento .sectionPadrao .divContainer{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionPagamento .sectionPadrao .divContainer > div{
+        width: 100%;
+    }
+    .sectionPagamento .sectionPadrao .divContainer .divBeneficios{
+        padding: 10px 20px;
+        margin: 30px 0;
+    }
+    .sectionPagamento .sectionPadrao .divContainer .divBeneficios span p{
+        max-width: 90%;
+    }
+    .sectionPagamento .sectionPadrao .divContainer .divBeneficios span p{
+        max-width: 90%;
+    }
+    .sectionPagamento .sectionPadrao .divContainer .divPagamento{
+        border-radius: 0 0 15px 15px;
+        padding: 30px 0;
+    }
+    .sectionPagamento .sectionPadrao .divContainer .divPagamento p{
+        padding-bottom: 10px;
+    }
+
+    /* Section Garantia */
+    .sectionGarantia{
+        padding: 40px 0;
+    }
+    .sectionGarantia .sectionPadrao{
+        justify-content: center;
+    }
+    .sectionGarantia .sectionPadrao div h2{
+        font-size: 30px;
+        width: 100%;
+        line-height: 32px;
+        text-align: center;
+    }
+    .sectionGarantia .sectionPadrao div p{
+        font-size: 13px;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .sectionGarantia .sectionPadrao div .subtitulo{
+        margin: 0;
+    }
+    .sectionGarantia .sectionPadrao img{
+        width: 130px;
+        height: 130px;
+        margin-bottom: 30px;
+    }
+
+    /* Avaliacoes */
+    .avaliacoes .sectionPadrao h2{
+        font-size: 25px;
+        line-height: 32px;
+        width: 100%;
+        text-align: center;
+    }
+    .avaliacoes .sectionPadrao > p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .avaliacoes .sectionPadrao > div{
+        justify-content: center;
+        gap: 20px;
+    }
+    .avaliacoes .sectionPadrao > div span{
+        width: 90%;
+    }
+
+    footer{
+        font-size: 10px;
+    }
+}
